@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="cadastro.css"/>
+</head>
+<body>
+
+  <!-- PAINEL ESQUERDO -->
+  <section class="left">
+    <div class="left-inner">
+      <div class="brand">Cadastro<span></span></div>
+      <p class="tagline">Comece suas compras<br>conosco!</p>
+      <div class="dots">
+        <i></i><i></i><i></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAINEL DIREITO -->
+  <section class="right">
+    <div class="card">
+      <h1 class="card-title">Crie a sua conta<br>agora!</h1>
+
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <div class="input-wrap">
+          <input type="text" id="nome" placeholder="Seu nome de usuário" autocomplete="username"/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <div class="input-wrap">
+          <input type="password" id="senha" placeholder="••••••••" autocomplete="new-password"/>
+          <button class="eye-btn" type="button" aria-label="Mostrar senha" onclick="toggleSenha(this)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="form-footer">
+        <button class="btn-criar" type="button">Criar</button>
+        <button class="btn-voltar" type="button" onclick="window.location.href='index.html'">Voltar</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
