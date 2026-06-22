@@ -4,6 +4,7 @@ body {
   font-family: 'DM Sans', sans-serif;
   background: #ffffff;
   color: #0d0e1a;
+  overflow: hidden;
 }
 
 .cabecalho {
@@ -208,18 +209,21 @@ body {
   grid-template-columns: 1fr auto;
   align-items: center;
   gap: 20px;
+  padding-bottom: 9rem;
 }
 
 .rodape-texto {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   color: rgba(255,255,255,0.65);
+  margin-top: 3rem;
 }
 
 .rodape-icones {
   display: flex;
   gap: 28px;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .rodape-icones a {
