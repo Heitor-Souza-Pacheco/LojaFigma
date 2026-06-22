@@ -59,11 +59,17 @@ body {
   text-decoration: none;
 }
 
-.barra-pesquisa svg {
+.icone-menu {
+  font-size: 18px;
   color: #888;
-  width: 18px;
-  height: 18px;
   flex-shrink: 0;
+}
+
+.icone-busca {
+  font-size: 18px;
+  color: #555;
+  display: flex;
+  align-items: center;
 }
 
 .barra-pesquisa input {
@@ -82,12 +88,6 @@ body {
   color: #aaa;
 }
 
-.icone-busca {
-  color: #555;
-  display: flex;
-  align-items: center;
-}
-
 .icones-nav {
   display: flex;
   align-items: center;
@@ -100,15 +100,18 @@ body {
   align-items: center;
   text-decoration: none;
   transition: opacity 0.2s;
+  font-size: 24px;
 }
 
 .icones-nav a:hover {
   opacity: 0.75;
 }
 
-.icones-nav svg {
-  width: 28px;
-  height: 28px;
+.icone-carrinho,
+.icone-perfil {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
 }
 
 .secao-hero {
@@ -225,18 +228,13 @@ body {
 .rodape-icones a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
-  display: flex;
-  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
   transition: color 0.2s;
 }
 
 .rodape-icones a:hover {
   color: #ffffff;
-}
-
-.rodape-icones svg {
-  width: 30px;
-  height: 30px;
 }
 
 

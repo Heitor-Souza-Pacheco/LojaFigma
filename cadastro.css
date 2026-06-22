@@ -151,16 +151,12 @@ input[type="password"]:focus {
   display: flex;
   align-items: center;
   padding: 4px;
+  font-size: 16px;
   transition: color 0.2s;
 }
 
 .botao-olho:hover {
   color: rgba(255,255,255,0.7);
-}
-
-.botao-olho svg {
-  width: 17px;
-  height: 17px;
 }
 
 .rodape-formulario {
